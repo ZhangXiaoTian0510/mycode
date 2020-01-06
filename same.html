@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/same.css">
+</head>
+<script src="jquery.js"></script>
+<body>
+    <!-- <div id="a" style="background: #000; height: 20px; width:20px"></div> -->
+
+    <div class="topBg">
+    <div class="top clear">
+        <div class="top-l">
+            <div class="peiSong">送至： <i class="peiSongDi">上海市</i></div>
+            <div class="yftAreaList" style="display: none;">
+                    <ul>
+                        <li><a href="javascript:void(0)" pname="北京市" provinceid="1">北京市</a></li>
+                        <li><a href="javascript:void(0)" pname="天津市" provinceid="2">天津市</a></li>
+                        <li><a href="javascript:void(0)" pname="河北省" provinceid="3">河北省</a></li>
+                        <li><a href="javascript:void(0)" pname="山西省" provinceid="4">山西省</a></li>
+                        <li><a href="javascript:void(0)" pname="内蒙古自治区" provinceid="5">内蒙古自治区</a></li>
+                        <li><a href="javascript:void(0)" pname="辽宁省" provinceid="6">辽宁省</a></li>
+                        <li><a href="javascript:void(0)" pname="吉林省" provinceid="7">吉林省</a></li>
+                        <li><a href="javascript:void(0)" pname="黑龙江省" provinceid="8">黑龙江省</a></li>
+                        <li class="select"><a href="javascript:void(0)" pname="上海市" provinceid="9">上海市</a></li>
+                        <li><a href="javascript:void(0)" pname="江苏省" provinceid="10">江苏省</a></li>
+                        <li><a href="javascript:void(0)" pname="浙江省" provinceid="11">浙江省</a></li>
+                        <li><a href="javascript:void(0)" pname="安徽省" provinceid="12">安徽省</a></li>
+                        <li><a href="javascript:void(0)" pname="福建省" provinceid="13">福建省</a></li>
+                        <li><a href="javascript:void(0)" pname="江西省" provinceid="14">江西省</a></li>
+                        <li><a href="javascript:void(0)" pname="山东省" provinceid="15">山东省</a></li>
+                        <li><a href="javascript:void(0)" pname="河南省" provinceid="16">河南省</a></li>
+                        <li><a href="javascript:void(0)" pname="湖北省" provinceid="17">湖北省</a></li>
+                        <li><a href="javascript:void(0)" pname="湖南省" provinceid="18">湖南省</a></li>
+                        <li><a href="javascript:void(0)" pname="广东省" provinceid="19">广东省</a></li>
+                        <li><a href="javascript:void(0)" pname="广西壮族自治区" provinceid="20">广西壮族自治区</a></li>
+                        <li><a href="javascript:void(0)" pname="海南省" provinceid="21">海南省</a></li>
+                        <li><a href="javascript:void(0)" pname="重庆市" provinceid="22">重庆市</a></li>
+                        <li><a href="javascript:void(0)" pname="四川省" provinceid="23">四川省</a></li>
+                        <li><a href="javascript:void(0)" pname="贵州省" provinceid="24">贵州省</a></li>
+                        <li><a href="javascript:void(0)" pname="云南省" provinceid="25">云南省</a></li>
+                        <li><a href="javascript:void(0)" pname="西藏自治区" provinceid="26">西藏自治区</a></li>
+                        <li><a href="javascript:void(0)" pname="陕西省" provinceid="27">陕西省</a></li>
+                        <li><a href="javascript:void(0)" pname="甘肃省" provinceid="28">甘肃省</a></li>
+                        <li><a href="javascript:void(0)" pname="青海省" provinceid="29">青海省</a></li>
+                        <li><a href="javascript:void(0)" pname="宁夏回族自治区" provinceid="30">宁夏回族自治区</a></li>
+                        <li><a href="javascript:void(0)" pname="新疆维吾尔自治区" provinceid="31">新疆维吾尔自治区</a></li>
+                    </ul>
+                </div>
+        </div>   
+        <div class="top-r">
+            <ul>
+                <li><a target="_blank" href="#" class="t-Sjr">设计师入口</a></li>
+                <li class="t-Center">
+                    <a href="#" class="t-user">个人中心</a>
+                    <div style="display:none;">
+                        <a href="#">我的订单</a>
+                        <a href="#">我的文件</a>
+                        <a href="#">我的模板</a>
+                    </div>
+                </li>
+                <li class="t-Shop">
+                    <a href="#" class="t-car">购物车<i id="c_num">0</i>件</a>
+                    <div style="display:none;">
+                        <p id="c_num_0" style="display:none;">购物车还没有商品，赶紧选购吧！</p>
+                        <ul id="car_info"></ul>
+                        <p class="yftCarBtn">
+                            <a href="#">查看我的购物车</a>
+                        </p>
+                    </div>
+                </li>
+                <li class="t-Help"><a href="#">帮助</a></li>
+                <li class="t-Server">联系客服：<i class="color">4008-727-998</i></li>
+            </ul>
+        </div>
+        <div class="top-c">
+            <ul>
+                <li>Hi~请</li>
+                <li>[登陆] </li>
+                <li>[免费注册]</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="margin">
+        <div id="header">
+            <div class="logo">
+                <a href="#"><img src="images/same/logo.jpg" alt="一幅图logo"></a>
+            </div>
+            <div class="search">
+                <div class="se-T">
+                    <i class="active">商品</i><i>模板</i>
+                </div>
+                <div class="se-B">
+                    <div class="se-S"><input type="text" value="请输入您想搜索的商品" style = "border:none;font-size:14px;line-height:18px;color:rgb(153,153,153);"></div>
+                    <div class="se-Btn"></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+   <!-- 导航栏 -->
+    <div id="nav">
+        <div class="margin">
+            <div id="navAll">
+                <div class="allShop"><a href="#">所有商品</a></div>
+                <ul class="dh">
+                    <li><a href="#">找设计</a><i class="icon-mf"></i></li>
+                    <li><a href="#">名片</a><i class="icon-rm"></i></li>
+                    <li><a href="#">LOGO设计</a></li>
+                    <li><a href="#">宣传单</a></li>
+                    <li><a href="#">画册</a></li>
+                    <li><a href="#">会场布置</a></li>
+                    <li><a href="#">办公系列</a><i class="icon-xp"></i></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">在线定制设计</a><i class="icon-xp"></i></li>
+                </ul>
+            </div>
+    <!-- 二级菜单  -->
+            <div class="ejMenu">
+                <div id=menu>
+                        <div class="me-cp"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                        <div class="me-mp"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                        <div class="qe"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                        <div class="yx"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                        <div class="hc"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                        <div class="jr"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                        <div class="gx"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                        <div class="jd"><a href="#">产品设计</a><p><a href="#">LOGO设计</a><a href="#">名片设计</a></p></div>
+                </div>
+                <div class="menuXp" style="display: none;">
+                    <div class="xpSuch1">
+                        <div class="xp-F1">
+                            <a href="#" class="tittle">婚礼设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div>
+                        <div class="xp-F1">
+                            <a href="#" class="tittle">婚礼设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div><div class="xp-F1">
+                            <a href="#" class="tittle">婚礼设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div><div class="xp-F1">
+                            <a href="#" class="tittle">婚礼设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="xpT"><img src="./images/same/mingpian2.jpg" alt="布吉岛是啥"></a>
+                </div>
+                <!-- <div class="menuXp" style="display: none;">
+                    <div class="xpSuch1">
+                        <div class="xp-F1">
+                            <a href="#" class="tittle">布景设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div>
+                        <div class="xp-F1">
+                            <a href="#" class="tittle">布景设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div><div class="xp-F1">
+                            <a href="#" class="tittle">布景设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div><div class="xp-F1">
+                            <a href="#" class="tittle">布景设计</a>
+                            <ul>
+                                <li><a href="#">笔记本设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                                <li><a href="#">会场LOGO设计</a></li>
+                                <li><a href="#">婚礼设计</a></li>
+                                <li><a href="#">婚礼现设计</a></li>
+                                <li><a href="#">布景设计</a></li>
+                                <li><a href="#">布设计</a></li>
+                                <li><a href="#">礼品设计</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="xpT"><img src="./images/same/rili.jpg" alt="布吉岛是啥"></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="margin">
+            <div class="se-yd">
+                <p>
+                    <a target="_blank" href="http://www.yifutu.com/about.html">关于我们</a>
+                    | 
+                    <a target="_blank" href="http://www.yifutu.com/contact.html">联系我们</a>
+                    | 
+                    <a target="_blank" href="http://www.yifutu.com/media.html">媒体报道</a>
+                    | 
+                    <a target="_blank" href="http://www.yifutu.com/cooperation.html">商务合作</a>
+                    |
+                    <a target="_blank" href="http://www.yifutu.com/affirms.html">版权声明</a>
+                    |
+                    <a target="_blank" href="http://www.yifutu.com/jiameng.html">申请加盟</a>
+                </p>
+                <p>CopyRight©2005-2016 一幅图 鄂ICP备05005325号-2 经营许可证编号:鄂ICP备05005325号 <a href="//yftimg.yifutu.com/yyzz.jpg" target="_blank">营业执照</a>：914201116953004125 </p>
+                <p style="height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011102000110" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                    <img src="http://www.beian.gov.cn/img/ghs.png" style="float:left;">
+                    鄂公网安备 42011102000110号
+                    </a>
+                </p>
+                <div class="wangJing">
+                    <div class="jingHui">
+                        <a href="#"><img src="http://gtcdn.yifutu.com/images/2015/index/cjy/wl110.gif" height="28"></a>
+                        <a href="#"><img src="http://gtcdn.yifutu.com/images/govIcon_s.jpg" title="武汉网监电子标识" alt="武汉网监电子标识" width="24" height="33" border="0"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/same.js"></script>
+
+</html>

@@ -1,0 +1,89 @@
+#banner{
+    width:1180px;height: 340px;
+    overflow: hidden;position: relative;
+    z-index: 7;
+}
+#banner ul{
+    z-index: 8;
+} 
+#banner .ba-img{
+    position: relative;
+}
+#banner .ba-img a{
+    display:block;
+    position: absolute;
+}
+#banner .ba-img a:nth-child(1){
+    z-index: 6;
+}
+#banner .ba-img a:nth-child(2){
+    z-index: 5;
+}
+#banner .ba-img a:nth-child(3){
+    z-index: 4;
+}
+#banner .control{
+    position: absolute;
+}
+#banner .control div{
+    position: absolute;
+    z-index: 8;
+    width: 50px;
+    height:100px;
+    font-size:20px;
+    color:#fff;
+    text-align: center;
+    line-height: 100px;
+    background: rgb(0, 0, 0);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#banner .control #leftBtn{
+    top:120px;
+}
+#banner .control #rightBtn{
+    top:120px;left:1130px;
+}
+
+#main{
+
+}
+#main .floorTittle{
+    width:440px;
+    height:54px;
+    margin: 40px auto 30px auto;
+    font:24px/54px "";
+    text-align: center;
+    background: url(../images/index/floor-title.png) no-repeat 0 24px;
+}
+#main .firstFloor{
+
+}
+#main .firstFloor ul{
+    display: flex;
+    justify-content: space-between;
+}
+#main .firstFloor ul li{
+
+}
+#main .firstFloor ul li .fi-img img{
+    width: 387px;
+    height: 290px;
+
+}
+#main .firstFloor ul li .fi-tittle{
+    padding: 25px 10px 25px 15px;
+}
+#main .firstFloor ul li .fi-tittle a{
+    display: inline-block;
+    width:224px;
+    font: 16px/20px "";
+}
+#main .firstFloor ul li .fi-tittle .d-dj{
+    font: 24px/1 "";
+    color: #ff6600;
+}
+#main .firstFloor ul li .fi-tittle .d-sp{
+    color:#999;
+    font-size: 16px;
+}
