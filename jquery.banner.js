@@ -91,7 +91,7 @@
                     position:"absolute",
                     zIndex:7,
                     left:515,
-                    bottom:0,
+                    bottom:-5,
                     listStyle:"none",
                     margin:"0 auto",
                     padding:0,
@@ -100,8 +100,8 @@
                 }).children("li").css({
                     display:"inline-block",
                     width:20,
-                    height:10,
-                    borderRadius:"20%",
+                    height:5,
+                    borderRadius:"25%",
                     background:"#fff",
                     margin:"10px 20px",
                     cursor:"pointer"
